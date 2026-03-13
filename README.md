@@ -1,16 +1,23 @@
-## Hi there 👋
+## 👋 Hi, I'm Dmitry
 
-<!--
-**dbuhonov/dbuhonov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```go
+var dbuhonov = struct {
+    Role       string
+    Languages  []string
+    Frameworks []string
+    Databases  []string
+    Philosophy []string
+}{
+    Role: "Backend Developer",
 
-Here are some ideas to get you started:
+    Languages:  []string{"PHP", "SQL", "JavaScript"},
+    Frameworks: []string{"Laravel", "Yii2"},
+    Databases:  []string{"PostgreSQL", "MySQL", "Oracle"},
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    Philosophy: []string{
+        "write simple code",
+        "tests are documentation",
+        "readable code scales better",
+    },
+}
+```
