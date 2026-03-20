@@ -1,4 +1,4 @@
-## 👋 Hi, I'm Dmitry
+## 👋 Hi, I'm Dmitry Bukhonov
 
 ```go
 var dbuhonov = struct {
