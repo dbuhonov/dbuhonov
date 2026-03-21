@@ -2,11 +2,12 @@
 
 ```go
 var dbuhonov = struct {
-    Role       string
-    Languages  []string
-    Frameworks []string
-    Databases  []string
-    Philosophy []string
+    Role          string
+    Languages     []string
+    Frameworks    []string
+    Databases     []string
+    Philosophy    []string
+    Contributions map[string]struct{}
 }{
     Role: "Backend Developer",
 
@@ -18,6 +19,11 @@ var dbuhonov = struct {
         "write simple code",
         "tests are documentation",
         "readable code scales better",
+    },
+
+    Contributions: map[string]struct{}{
+        "yiisoft/app": {},
+        "yiisoft/error-handler": {},
     },
 }
 ```
