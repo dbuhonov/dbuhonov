@@ -24,6 +24,7 @@ var dbuhonov = struct {
     Contributions: map[string]struct{}{
         "yiisoft/app": {},
         "yiisoft/error-handler": {},
+        "symfony/symfony": {},
     },
 }
 ```
