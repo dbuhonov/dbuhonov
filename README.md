@@ -25,6 +25,7 @@ var dbuhonov = struct {
         "yiisoft/app": {},
         "yiisoft/error-handler": {},
         "symfony/symfony": {},
+        "yiisoft/router": {},
     },
 }
 ```
