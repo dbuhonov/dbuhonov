@@ -11,7 +11,7 @@ var dbuhonov = struct {
 }{
     Role: "Backend Developer",
 
-    Languages:  []string{"PHP", "SQL", "JavaScript", "Python"},
+    Languages:  []string{"PHP", "JavaScript", "Python"},
     Frameworks: []string{"Laravel", "Yii2"},
     Databases:  []string{"PostgreSQL", "MySQL", "Oracle"},
 
