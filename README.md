@@ -27,6 +27,7 @@ var dbuhonov = struct {
         "symfony/symfony": {},
         "yiisoft/router": {},
         "yiisoft/active-record": {},
+        "guzzle/guzzle": {},
     },
 }
 ```
